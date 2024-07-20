@@ -1,0 +1,386 @@
+Unity Editor version:    2022.3.38f1 (c5d5a7410213)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.3.1 (Build 23D60)
+Darwin version:          23.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.38f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/jean-youha/Documents/GitHub/madcamp_week4/SoHappy/killBill
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63039
+Successfully changed project path to: /Users/jean-youha/Documents/GitHub/madcamp_week4/SoHappy/killBill
+/Users/jean-youha/Documents/GitHub/madcamp_week4/SoHappy/killBill
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8106679360]  Target information:
+
+Player connection [8106679360]  * "[IP] 143.248.226.11 [Port] 0 [Flags] 2 [Guid] 3561294323 [EditorId] 3561294323 [Version] 1048832 [Id] OSXEditor(0,jin-yuhaui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8106679360] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8106679360] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 8.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.38f1 (c5d5a7410213)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.38f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jean-youha/Documents/GitHub/madcamp_week4/SoHappy/killBill/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.38f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.38f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.38f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.38f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.38f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.38f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005236 seconds.
+- Loaded All Assemblies, in  0.279 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 71 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.263 seconds
+Domain Reload Profiling: 542ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (90ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (263ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (227ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (136ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.436 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.450 seconds
+Domain Reload Profiling: 888ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (107ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (450ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (331ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.38f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (0.8 MB). Loaded Objects now: 3691.
+Memory consumption went from 157.7 MB to 156.9 MB.
+Total: 2.480541 ms (FindLiveObjects: 0.127875 ms CreateObjectMapping: 0.055417 ms MarkObjects: 2.061166 ms  DeleteObjects: 0.235708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47870.738856 seconds.
+  path: Assets/Player/Male Character Animation/Male Character/Male Locomotion Pack (1)/jump.fbx
+  artifactKey: Guid(37cd55e8929bf45b68d4171d0bcb552c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Male Character/Male Locomotion Pack (1)/jump.fbx using Guid(37cd55e8929bf45b68d4171d0bcb552c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6cf313e63e52c9fe232d77e6548421ef') in 0.060705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 94.211151 seconds.
+  path: Assets/Player/Male Character Animation/Male Locomotion Pack (1)/jump.fbx
+  artifactKey: Guid(c12a3ee6c494e42f5a20908c95fcc54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Male Locomotion Pack (1)/jump.fbx using Guid(c12a3ee6c494e42f5a20908c95fcc54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dbb2d390d846cb9dd83d657fa35c0acb') in 0.027540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Player/Male Character Animation/Male Locomotion Pack (1)/left strafe walking.fbx
+  artifactKey: Guid(5cd1e0673cdd44d989654ca7114239e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Male Locomotion Pack (1)/left strafe walking.fbx using Guid(5cd1e0673cdd44d989654ca7114239e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c12c743dc11ef178f240b260e4342fc3') in 0.002358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Player/Male Character Animation/Male Locomotion Pack (1)/standard run.fbx
+  artifactKey: Guid(1d8fc06c0f123452aba15ef08fa9ea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Male Locomotion Pack (1)/standard run.fbx using Guid(1d8fc06c0f123452aba15ef08fa9ea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1a290fbe2f3b9c864bb2fbe1ee440b62') in 0.002212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000904 seconds.
+  path: Assets/Player/Male Character Animation/Male Locomotion Pack (1)/left turn 90.fbx
+  artifactKey: Guid(062d405b85d7a42b6bfb150566d1e5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Male Locomotion Pack (1)/left turn 90.fbx using Guid(062d405b85d7a42b6bfb150566d1e5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c6bd7d1c28bf3a24ef3fbbe15f5edde9') in 0.001977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 7.862925 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/jump backward.fbx
+  artifactKey: Guid(5fb93e040973346939618dc28bffad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/jump backward.fbx using Guid(5fb93e040973346939618dc28bffad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a6d38cb8614a3c2bbacfa14283246d75') in 0.008774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/walking to dying.fbx
+  artifactKey: Guid(47eb6e0d63b2846a8b5ba443876fd898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/walking to dying.fbx using Guid(47eb6e0d63b2846a8b5ba443876fd898) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2625ce713c065aad89e772bc3f259592') in 0.004347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/strafe (2).fbx
+  artifactKey: Guid(a38d403f4b8ac4c7f82f2a73354f2253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/strafe (2).fbx using Guid(a38d403f4b8ac4c7f82f2a73354f2253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e5e90c94fe2fd61f88b9b572a404e322') in 0.003313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/rifle run.fbx
+  artifactKey: Guid(0732cf3320f424125b366183d95df518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/rifle run.fbx using Guid(0732cf3320f424125b366183d95df518) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6fa1a8e4180ef31968f1d401823a0a73') in 0.003645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/jump forward.fbx
+  artifactKey: Guid(0701b763d7e9a4368b879568f3ea88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/jump forward.fbx using Guid(0701b763d7e9a4368b879568f3ea88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2876a64e38dfe5832d89eec3d5f44a9d') in 0.003886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/strafe.fbx
+  artifactKey: Guid(2a1523393ef1541bfb32da0491a7d708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/strafe.fbx using Guid(2a1523393ef1541bfb32da0491a7d708) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9e5998f8147894c7d646a4ceacc549f3') in 0.002873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/start walking.fbx
+  artifactKey: Guid(ae9c0e1a74c804f319613a33eac4b38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/start walking.fbx using Guid(ae9c0e1a74c804f319613a33eac4b38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e74ca7f56a24f67ee057fd289f8ffc84') in 0.002616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 1.788525 seconds.
+  path: Assets/Player/Male Character Animation/Material/Bottommat.mat
+  artifactKey: Guid(5e143feb1dd934dad8a3b396e35ad927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Material/Bottommat.mat using Guid(5e143feb1dd934dad8a3b396e35ad927) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4f3eb4a87e1de532ab5f28f51ed9f7f5') in 0.219195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 350.159211 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/jump backward.fbx
+  artifactKey: Guid(5fb93e040973346939618dc28bffad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/jump backward.fbx using Guid(5fb93e040973346939618dc28bffad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d3b8a7f41b532ef599b23c7306cad00') in 0.011917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/run backwards.fbx
+  artifactKey: Guid(e07ee81a7ab154286bad2074fe48d753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/run backwards.fbx using Guid(e07ee81a7ab154286bad2074fe48d753) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fc7207fbb491ab18fdc0a02818d4f257') in 0.002000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/walking backwards.fbx
+  artifactKey: Guid(91f339f1ce2f84526a8f96c8ba25ff62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/walking backwards.fbx using Guid(91f339f1ce2f84526a8f96c8ba25ff62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '197ab907c9ddaed1ec12e7d677e5fa06') in 0.002028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/rifle aiming idle.fbx
+  artifactKey: Guid(15844f3d0e3324511899b8d1f8d2ec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/rifle aiming idle.fbx using Guid(15844f3d0e3324511899b8d1f8d2ec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd876645920a3371e3da505e11ab6c3f9') in 0.002140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/walking.fbx
+  artifactKey: Guid(7158ba647f15e49f8bdba1fb7d40fe0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/walking.fbx using Guid(7158ba647f15e49f8bdba1fb7d40fe0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f1019aedee86a415b32444a8e96b3362') in 0.001841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/start walking backwards.fbx
+  artifactKey: Guid(f6257e904e659481faf237ed0ff02e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/start walking backwards.fbx using Guid(f6257e904e659481faf237ed0ff02e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f6745fbd6efede84c91535ab60187ff8') in 0.002866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/walk backwards stop.fbx
+  artifactKey: Guid(0ae6a9d6ef8a8496d8e5550af7e4af47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/walk backwards stop.fbx using Guid(0ae6a9d6ef8a8496d8e5550af7e4af47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '73ad88f1d4d846384c255d6b8a1cf316') in 0.003981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Player/Male Character Animation/Shooter Pack/stop walking.fbx
+  artifactKey: Guid(45378c26d85044e1280be0eb6773d784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Male Character Animation/Shooter Pack/stop walking.fbx using Guid(45378c26d85044e1280be0eb6773d784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7c8dae478c97197ff5614aa05e916ea6') in 0.001807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
