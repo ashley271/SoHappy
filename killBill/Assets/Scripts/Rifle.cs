@@ -8,6 +8,11 @@ public class Rifle : MonoBehaviour
     public Camera cam;
     public float giveDamageOf = 10f;
     public float shootingRange = 100f;
+
+
+    [Header("Rifle Effects")]
+    public ParticleSystem muzzleSpark;
+    public GameObject WoodedEffect;
     private void Update()
     {
         if(Input.GetButtonDown("Fire1"))
@@ -17,6 +22,7 @@ public class Rifle : MonoBehaviour
     }
     private void Shoot()
     {
+        muzzleSpark.Play();
         RaycastHit hitInfo;
         if(Physics.Raycast(cam.transform.position,cam.transform.forward,out hitInfo,shootingRange))
         {
@@ -25,6 +31,8 @@ public class Rifle : MonoBehaviour
             if(objectToHit!=null)
             {
                 objectToHit.ObjectHitDamage(giveDamageOf);
+                GameObject WoodGo = Instantiate(WoodedEffect, hitInfo.point, Quaternion.LookRotation(hitInfo.normal));
+                Destroy(WoodGo, 1f);
             }
         }
     }
