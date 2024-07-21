@@ -38,7 +38,10 @@ public class PlayerScript : MonoBehaviour
         cC.Move(velocity * Time.deltaTime);
         playerMove();
         Jump();
+
         Sprint();
+
+
     }
 
     void playerMove()
@@ -109,4 +112,5 @@ public class PlayerScript : MonoBehaviour
             }
         }
     }
+    
 }
