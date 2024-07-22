@@ -8,7 +8,7 @@ public class PlayerPunch : MonoBehaviour
     [Header("Player Punch Var")]
     public Camera cam;
     public float giveDamageOf = 10f;
-    public float punchingRange = 0.3f;
+    public float punchingRange = 5f;
     [Header("Punch Effects")]
     public GameObject WoodedEffect;
     public void Punch()
