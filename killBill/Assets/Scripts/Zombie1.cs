@@ -77,7 +77,7 @@ public class Zombie : MonoBehaviour
             {
                 Debug.Log("Attacking" + hitInfo.transform.name);
 
-                // PlayerScript playerBody = hitInfo.transform.GetComponent<PlayerScript>();
+                PlayerScript playerBody = hitInfo.transform.GetComponent<PlayerScript>();
             }
 
             previouslyAttack = true;
